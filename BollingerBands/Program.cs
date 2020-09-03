@@ -15,7 +15,7 @@ namespace ConsoleRuntime
 
             var list = indicator.Calculate(new DateTime(2020, 8, 11), new DateTime(2020, 09, 1)).ToList();
 
-            indicator.SaveResultToFile(@"e:\Documents\BollingerBands\BollingerBands\result.csv", list);
+            indicator.SaveResultToFile(@"e:\Documents\GitHub\BollingerBands\result.csv", list);
 
         }
     }

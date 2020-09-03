@@ -111,8 +111,6 @@ namespace BollingerBands
                 {
                     sw.WriteLine(str);
                 }
-
-                Console.WriteLine("Запись закончена");
             }
         }
     }

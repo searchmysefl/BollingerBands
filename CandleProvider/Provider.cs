@@ -8,7 +8,7 @@ namespace CandleProvider
 {
     public class Provider : ICandleProvider
     {
-        private string path = @"e:\Documents\BollingerBands\BollingerBands\Chart.csv";
+        private string path = @"e:\Documents\GitHub\BollingerBands\Chart.csv";
 
         public IEnumerable<Candle> GetCandles(DateTime start, DateTime end)
         {
